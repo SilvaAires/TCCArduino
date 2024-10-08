@@ -1,0 +1,77 @@
+body {
+    background-color: #e0f7fa;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #343a40;
+    margin-bottom: 30px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.form-group {
+    text-align: center;
+}
+
+label {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+select, input {
+    text-align: center;
+}
+
+select {
+    width: auto;
+    display: inline-block;
+}
+
+button {
+    width: auto;
+    display: inline-block;
+    margin: 10px auto 0;
+}
+
+@media (min-width: 768px) {
+    button {
+        width: auto;
+    }
+}
+
+/*Tela graficos*/
+.card {
+    border: 2px solid #000000;
+    margin-top: 50px;
+    border: none;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+}
+
+.card-header {
+    background-color: #00acc1; /* Azul mais escuro */
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.card img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do contêiner */
+    max-height: 200px; /* Ajusta a altura máxima das imagens */
+    height: auto; /* Mantém a proporção da imagem */
+}
